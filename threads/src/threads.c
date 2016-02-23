@@ -31,7 +31,7 @@ void* add_run(void* arg){
 int main(int argc, char **argv) {
 
 	if (argc < 2){
-		printf("Not enought Arguments\n");
+		printf("Not enough Arguments\n");
 		exit(1);
 	}
 	long long limit = atoll(argv[1]);

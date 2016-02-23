@@ -24,7 +24,7 @@ struct node {
     struct node* next;
 };
 
-void linkInsert(int val){									/*Insert a node object */
+void linkInsert(long long val){									/*Insert a node object */
 	struct node* temp;
 	struct node* temp2;
 	if (head != NULL){										/*If not the first node*/

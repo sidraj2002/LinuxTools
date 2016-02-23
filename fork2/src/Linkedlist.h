@@ -9,7 +9,7 @@
 #define SRC_LINKEDLIST_H_
 
 
-void linkInsert(int val);
+void linkInsert(long long val);
 
 void nInsert(int val, int n);
 
